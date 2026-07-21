@@ -24,3 +24,19 @@ body{
     color:var(--brown);
     line-height:1.6;
 }
+h1,
+h2,
+h3{
+    font-family:'Noto Serif',serif;
+    letter-spacing:1px;
+    color:var(--primary);
+}
+
+p{
+    margin-bottom:15px;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
