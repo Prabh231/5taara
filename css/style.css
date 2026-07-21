@@ -95,7 +95,7 @@ nav a:hover{
 
 .hero h1{
     color:var(--white);
-    font-size:clamp(2rem,5vw,3.5rem);
+    font-size:clamp(2rem,5vw,3.5rem);/*(min, recommended, max)*/
     margin-bottom:1rem;
 }
 
@@ -103,4 +103,23 @@ nav a:hover{
     font-size:1.2rem;
     color:var(--white);
 }
+/* Buttons */
+.hero a,
+section a,
+button{
+    display:inline-block;
+    background:var(--primary);
+    color:var(--white);
+    padding:0.75rem 1.5rem;
+    border-radius:0.5rem;
+    border:none;
+    cursor:pointer;
+    transition:0.3s;
+}
 
+.hero a:hover,
+section a:hover,
+button:hover{
+    background:var(--secondary);
+    color:var(--brown);
+}
