@@ -69,4 +69,17 @@ header .container{
 header img{
     width:6rem;
 }
+/* Navigation */
+nav ul{
+    display:flex;
+    gap:2rem;
+}
+nav a{
+    font-weight:600;
+    letter-spacing:0.03rem;
+    transition:0.3s;
+}
+nav a:hover{
+    color:var(--primary);
+}
 
