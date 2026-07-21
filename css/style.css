@@ -188,3 +188,33 @@ footer address{
     font-style:normal;
     margin-bottom:1rem;
 }
+/* Responsive Design */
+@media(max-width:780px){
+
+header .container{
+    flex-direction:column;
+    gap:1rem;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+    gap:1rem;
+}
+
+.products{
+    grid-template-columns:1fr;
+}
+
+.hero{
+    height:60vh;
+}
+
+.hero p{
+    font-size:1rem;
+}
+
+section{
+    padding:2.5rem 0;
+}
+}
