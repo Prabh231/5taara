@@ -1,0 +1,13 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif:wght@600;700&display=swap');
+
+/* Color Palette */
+:root{
+    --primary:#8B0000;
+    --secondary:#D4A017;
+    --accent:#2E8B57;
+    --cream:#FFF8E7;
+    --brown:#3B1F14;
+    --white:#FFFFFF;
+    --shadow:0 4px 10px rgba(0,0,0,0.15); /*create shadow effect to give element raised look*/
+}
