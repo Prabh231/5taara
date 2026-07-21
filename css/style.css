@@ -28,15 +28,45 @@ h1,
 h2,
 h3{
     font-family:'Noto Serif',serif;
-    letter-spacing:1px;
+    letter-spacing:0.05rem;
     color:var(--primary);
 }
 
 p{
-    margin-bottom:15px;
+    margin-bottom:1rem;
 }
 
 img{
     max-width:100%;
     display:block;
 }
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+/* Container */
+.container{
+    width:90%;
+    max-width:75rem;
+    margin:auto;
+}
+/* Header */
+header{
+    background:var(--white);
+    box-shadow:var(--shadow);
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem 0;
+}
+header img{
+    width:6rem;
+}
+
